@@ -1,0 +1,13 @@
+/* FACTORIAL DE N
+Fecha de entrega 27 de abril de 2021*/
+#include <stdio.h>
+void main()
+{
+int i,n, factorial=1; // variables del programa
+printf( "\n Programa que calcula el factorial de un número " );
+printf( "\n Introduzca un numero:" );
+scanf( "%d", &n );
+for ( i=2;i<=n; i++)
+factorial= factorial * i;
+printf( "\n El resultado es: %d", factorial );
+}

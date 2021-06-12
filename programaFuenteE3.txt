@@ -1,0 +1,14 @@
+#include <stdio.h>
+int suma(int a, int b) /* función que realiza la suma de dos números
+positivos*/
+{
+int c
+if (( a>0) && (b>0)){
+c= a+b; // realiza operación
+return c;
+}
+else {
+printf(“\n Verifique que los números proporcionados sean positivos”);
+return -1;
+}
+}

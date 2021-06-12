@@ -1,0 +1,13 @@
+#include <conio.h>
+#include <stdio.h>
+void main()
+{
+int i;
+For int n1, n2, suma; // variables
+printf( "\n Introduzca primer número: " );
+scanf( "%d", &n1 );
+printf( "\n Introduzca segundo numero:" );
+scanf( "%d", &n2 );
+suma = n1 + n2;
+printf( "\n La suma es: %d", suma );
+}
